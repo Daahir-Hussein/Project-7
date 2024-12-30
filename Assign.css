@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.title h1{
+    text-align: center;
+    font-size: 3em;
+    margin-top: 5%;
+    color: darkcyan;
+}
+.title p{
+    text-align: center;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 220px 220px 220px 220px;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+
+.box{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 1px 1px 1px;
+}
+
+.box h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box i{
+    padding-top: 20px;
+    font-size: 2em;
+    margin-left: 40%;
+    color: orangered;
+}

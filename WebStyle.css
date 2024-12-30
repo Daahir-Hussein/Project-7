@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*  */
+
+.header{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.logo h1{
+    font-size: 2em;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.logo span{
+    color: rgb(237, 151, 45);
+}
+
+.menue ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+.butt0n .btn-1{
+    padding: 10px 15px;
+    background-color: transparent;
+    border: none;
+    background-color: rgb(165, 99, 18);
+    font-size: 1em;
+    font-family: sans-serif;
+    color: white;
+}
+
+.butt0n #btn-2{
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid rgb(152, 100, 37);
+    /* background-color: rgb(165, 99, 18); */
+    font-size: 1em;
+    font-family: sans-serif;
+    color: rgb(239, 161, 66);
+    margin-left: 10px;
+}
+
+/* main */
+
+.title{
+    text-align: center;
+    /* margin-top: 5%; */
+}
+
+.title h1{
+    font-size: 3em;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.title p{
+    font-size: 1em;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+.main{
+    background-color: antiquewhite;
+    height: 500px;
+}
+.main img{
+    width: 800px;
+    height: 300px;
+    /* margin: 40px; */
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.main h2{
+    margin-left: 250px;
+    margin-top: 10px;
+    font-size: 1.3em;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.main p{
+    margin-left: 250px;
+    margin-top: 5px;
+    font-size: 12px;
+    font-family: sans-serif;
+    
+}
+
+/* images */
+.images hr{
+    width: 800px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid black;
+}
+.images{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    /* justify-content: space-around; */
+    gap: 20px;
+    margin-top: 2%;
+    margin-left: 250px;
+}
+.image-2 img{
+    width: 150px;
+}
+
+.text{
+    margin-top: 10px;
+}
+
+.text h1{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.text p{
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-top: 8px;
+}
+
+.last-btn button{
+    padding: 10px 20px;
+    margin-left: 45%;
+    background-color: transparent;
+    border: 1px solid burlywood;
+    color: rgb(236, 141, 17);
+    margin-top: 20px;
+}
+
+/* Footer */
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 150px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.last h1{
+    font-size: 2.5em;
+    font-family: sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.last p{
+    font-size: 1em;
+    font-family: sans-serif;
+    padding-top: 3px;
+}
+
+.last span{
+    font-size: 1.2em;
+    font-family: sans-serif;
+    color: orangered;
+}
+
+.last h5,h6{
+    font-size: 10px;
+    font-weight: 200;
+    padding-top: 3px;
+}
